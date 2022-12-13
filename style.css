@@ -1,0 +1,274 @@
+@font-face {
+    font-family: Comfortaa;
+    src: url(fonts/Comfortaa/static/Comfortaa-Regular.ttf);
+}
+@font-face {
+    font-family: Comfortaa-Bold;
+    src: url(fonts/Comfortaa/static/Comfortaa-Bold.ttf);
+}
+@font-face {
+    font-family: NotoSans-Italic;
+    src: url(fonts/Comfortaa/static/);
+}
+* {
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style-type: none;
+}
+body {
+    font-family: Comfortaa;
+    font-size: 18px;
+}
+h1, h2, h3 {
+    font-family: Comfortaa-Bold;
+}
+h1 {
+    font-size: 3em;
+}
+h2 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: #074122;
+}
+h3 {
+    font-size: 1.5em;
+}
+header, footer {
+    display: flex;
+    justify-content: space-between;
+}
+/** menu***/
+nav ul {
+    display: flex;
+}
+nav ul a {
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+}
+/**start***/
+.start {
+    background: url(img/touring.jpg);
+    background-size: cover;
+    background-position-y: center;
+}
+.wrapper {
+    width: 1280px;
+    margin: 0 auto;
+}
+.start .wrapper {
+    padding: 200px 0 100px 0 ;
+} 
+.start h2 {
+    text-align: center;
+    padding: 20px 0;
+    color: #003016;
+    font-style: italic;
+    margin-bottom: 100px;
+}
+.start h1 {
+    text-align: center;
+    color: #003016;
+}
+[type="submit"] {
+    background: #cf8c55;
+    border: 0;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    margin: 0 auto;
+}
+[type="submit"]:hover {
+    background: #009a6d;
+    color: white;
+    cursor: pointer;
+}
+.start form {
+    text-align: center;
+}
+p {
+    margin-bottom: 20px;
+}
+.info {
+    background: #8edb9a;
+}
+.info .img {
+    background: url(img/aboutus.png);
+    background-size: cover;
+    width: 450px;
+    height: 280px;
+    float: right;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.info .wrapper {
+    overflow: hidden;
+}
+.info p span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+/**promotion***/
+.promotion {
+    background: #8edb9a;
+}
+.promotion_columns, .routes {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.vacation {
+    background: url(img/action.png);
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+}
+.promotion_columns article, .routes article {
+    width: 360px;
+    margin: 20px 10px;
+    padding: 10px;
+}
+.routes article [type="submit"] {
+    margin-bottom: 10px;
+}
+article input {
+    text-align: center;
+}
+article h3  {
+    margin: 20px 0;
+}
+
+/**закрытые акции***/
+
+.subcription {
+text-align: center;
+}
+.subcription [type="email"] {
+    padding: 10px 30px;
+}
+.subcription [type="submit"] {
+    padding: 10px 20px;
+}
+/**оформление форм***/
+.search {
+    background: url(img/background_search.jpg);
+    background-size: cover;
+}
+form label {
+    display: block;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.blocks input, .blocks select  {
+    display: block;
+    padding: 10px;
+    width: 316px;
+    margin: 0 auto;
+}
+.blocks {
+    width: 320px;
+    margin: 0 auto;
+}
+.blocks input {
+    width: 296px;
+    margin-top: 20px;
+}
+fieldset {
+    padding: 20px;
+    border: 3px solid #009a6d;
+    margin-bottom: 20px;
+}
+legend {
+    color: #009a6d;
+    margin: 0 auto;
+}
+textarea {
+    display: block;
+    padding: 10px;
+    width: 96%;
+    border: 3px solid #009a6d;
+}
+.blocks [type="checkbox"] {
+    display: inline;
+    width: initial;
+    margin-right: 10px;
+}
+.booking_form {
+    width: 550px;
+}
+.blocks [type="submit"] {
+    background: #009a6d;
+    color: white;
+    border: 0;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 20px;
+    width: 320px;
+}
+.text {
+    color: #009a6d;
+}
+.blocks p {
+    text-align: center;
+    margin-top: 10px;
+}
+.booking_bg {
+    background: url(img/rt.jpg);
+    background-size: cover;
+    background-position: 20%;
+}
+select {
+    background: #009a6d;
+}
+input, select {
+    border: 2px solid #009a6d;
+}
+form .route a {
+    background: #009a6d;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 20px;
+}
+form .route {
+    border: 0;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+form .route a:hover {
+    background: #cf8c55;
+    color: black;
+}
+.routes article form > div {
+    margin: 10px 0;
+}
+.routes article span, .routes article time {
+    font-weight: bold;
+    color: #009a6d;
+}
+.routes article h3 {
+    margin-bottom: 20px;
+}
+
+/* страница выбора зон в маршруте */
+.places {
+    display: flex;
+}
+.places .schema {
+    width: 400px;
+    height: 300px;
+    background: url(img/place.png);
+    background-size: cover;
+    margin-right: 20px;
+}
+.places .routes-title {
+    width: 860px;
+} 

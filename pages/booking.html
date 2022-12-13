@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Турист-Pro</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+    <header>
+        <div class="left">
+            <a href="../index.html">
+                <div class="logo">23</div>
+            </a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="places.html">Акции</a></li>
+                <li><a href="search.html">Поиск</a></li>
+                <li><a href="booking.html">Управление бронированиями</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="wrapper booking_bg">
+            <h2>Оформление бронирования</h2>
+            <form action="" class="blocks booking_form">
+                <label for="region" class="text">Выберите регион для похода
+                    <select name="" id="">
+                        <option value="Пермский край" selected>Пермский край</option>
+                        <option value="Екатеринбург">Екатеринбург</option>
+                        <option value="Удмуртия">Удмуртия</option>
+                    </select>
+                </label>
+                <Label class="text">Наименование маршрута
+                    <input type="text" value="Маршрут № 1">
+                </Label>
+                <fieldset>
+                    <legend>Выбранные зоны для посещения</legend>
+                    <label for=""><input type="checkbox" name="places" >Кунгурская ледяная пещера</label>
+                    <label for=""><input type="checkbox" name="places" checked>Белая гора</label>
+                    <label for=""><input type="checkbox" name="places" >Полюд</label>
+                    <label for=""><input type="checkbox" name="places" checked>Чусовские городки</label>
+                </fieldset>
+                <label class="text">Предполагаемые даты похода</label>
+                <label class="text">Дата начала похода: <input type="date" value="2022-07-01"></label>
+                <label class="text">Дата окончания похода:<input type="date" value="2022-07-10"></label>
+                <label class="text">Количество участников</label>
+                <input type="number" name="" id="count" min="1" max="15" value="5">
+                <p>Стоимость: <span>7500 руб.</span></p>
+                <fieldset>
+                    <legend>Дополнительные услуги</legend>
+                    <label for=""><input type="checkbox" name="level" id="">Услуги проводника</label>
+                    <label for=""><input type="checkbox" name="level" id="">Услуги аренды туристического оборудования</label>
+                    <label for=""><input type="checkbox" name="level" id="">Услуги фотографа/видеооператора</label>
+                    <label for=""><input type="checkbox" name="level" id="">Страхование от несчастных случаев</label>
+                </fieldset>
+                <label class="text">Комментарий к заказу (если есть):
+                    <textarea cols="30" rows="10" placeholder="Текст комментария"></textarea>
+                </label>
+                <label class="text">Укажите e-mail
+                    <input type="email" placeholder="e-mail">
+                </label>
+                <p>Итоговая стоимость:<span class="summ">10 000 руб.</span></p>
+                <input type="submit" value="Забронировать">
+            </form>
+        </div>
+    </main>
+    <footer>
+        <div class="phone">8 (800) 555-33-10</div>
+        <nav>
+            <ul>
+                <li><a href="places.html">Акции</a></li>
+                <li><a href="search.html">Поиск</a></li>
+                <li><a href="booking.html">Управление бронированиями</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
